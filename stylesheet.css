@@ -1,0 +1,106 @@
+﻿body{
+	
+	background-color:honeydew;
+	background-position:center;
+}
+h2{
+	color: red;
+	font-family: 'Cabin', sans-serif;
+    font-size:xx-large;
+	text-align:center;
+    letter-spacing: 3px;
+}
+header{
+	height: 100px;
+	width: auto;
+	
+	}
+#logo{
+	
+
+}
+p {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 50px;
+}
+#languages{
+	
+	color:blue;
+	font-family:'Josefin Sans', sans-serif;
+	font-variant:small-caps;
+	margin-left:50px;
+}
+nav{	
+	width:auto;
+	position:absolute;
+    left: 125px;
+    top: 55px;
+
+}
+.navi{
+	list-style:none;
+	display:inline-block;
+	padding-left: 10px;
+	width:auto;
+    font-size: 18px;
+}
+#navi li:hover{
+    font-weight: bolder;
+    font-size: 19px;
+}
+footer{
+    position: relative;
+    bottom: 0px;;
+    margin-left: 100%;
+    margin:auto;
+    text-align: center;
+}
+.imagecontainer{
+    position: relative;
+    width: 900px;
+    margin: auto;
+    height: auto;
+}                                                                                                                            
+.slides{
+    width: 100%;
+    height: 100%;
+    
+}
+.right{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0%;
+    bottom: 50%;
+    border: none;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: transparent;
+}
+.left {
+    font-weight: bolder;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 0%;
+    bottom: 50%;
+    font-size: xx-large;
+    border: none;
+    background-color: transparent;
+}.thumbContainer{
+     text-align: center;
+ }
+
+.thumbs{
+    width: 150px;
+    height: 50px;
+    padding-top: 10px;
+    opacity: .6;
+}
+.thumbs:hover{
+    opacity: .8;
+}
+.thumbs:active{
+    opacity:1;
+}
